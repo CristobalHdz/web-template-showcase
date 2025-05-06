@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/web-template-showcase/static/css/main.569fd969.css",
+    "main.js": "/web-template-showcase/static/js/main.1cabd4aa.js",
+    "static/js/787.f6f514d1.chunk.js": "/web-template-showcase/static/js/787.f6f514d1.chunk.js",
+    "static/media/heroImg.png": "/web-template-showcase/static/media/heroImg.45f31b1d441baf7074ec.png",
+    "static/media/br2.png": "/web-template-showcase/static/media/br2.f88f2f6dd95499de52eb.png",
+    "static/media/br1.png": "/web-template-showcase/static/media/br1.367c856645c463a9dbf2.png",
+    "static/media/menu3.jpg": "/web-template-showcase/static/media/menu3.7facb4c5eaf834211f8d.jpg",
+    "static/media/menu1.jpg": "/web-template-showcase/static/media/menu1.f34df757ed5567a409ca.jpg",
+    "static/media/menu2.jpg": "/web-template-showcase/static/media/menu2.bf0a07ff052bafde9a30.jpg",
+    "static/media/uber_eats.svg": "/web-template-showcase/static/media/uber_eats.979590572a52ae761845.svg",
+    "static/media/favicon.svg": "/web-template-showcase/static/media/favicon.6ed6ace45853f5b56a8e299bbdf73da9.svg",
+    "static/media/just_eat.svg": "/web-template-showcase/static/media/just_eat.78a23642a95b8bec577e.svg",
+    "static/media/deliveroo.svg": "/web-template-showcase/static/media/deliveroo.79145542f47ab93eef1c.svg",
+    "index.html": "/web-template-showcase/index.html",
+    "main.569fd969.css.map": "/web-template-showcase/static/css/main.569fd969.css.map",
+    "main.1cabd4aa.js.map": "/web-template-showcase/static/js/main.1cabd4aa.js.map",
+    "787.f6f514d1.chunk.js.map": "/web-template-showcase/static/js/787.f6f514d1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.569fd969.css",
+    "static/js/main.1cabd4aa.js"
+  ]
+}
