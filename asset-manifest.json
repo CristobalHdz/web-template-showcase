@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/web-template-showcase/static/css/main.569fd969.css",
-    "main.js": "/web-template-showcase/static/js/main.5d951484.js",
-    "static/js/787.4c96148f.chunk.js": "/web-template-showcase/static/js/787.4c96148f.chunk.js",
+    "main.css": "/web-template-showcase/static/css/main.5fba72a5.css",
+    "main.js": "/web-template-showcase/static/js/main.5470aa42.js",
+    "static/js/452.90dcb9f2.chunk.js": "/web-template-showcase/static/js/452.90dcb9f2.chunk.js",
     "static/media/heroImg.png": "/web-template-showcase/static/media/heroImg.45f31b1d441baf7074ec.png",
     "static/media/br2.png": "/web-template-showcase/static/media/br2.f88f2f6dd95499de52eb.png",
     "static/media/br1.png": "/web-template-showcase/static/media/br1.367c856645c463a9dbf2.png",
@@ -14,12 +14,12 @@
     "static/media/just_eat.svg": "/web-template-showcase/static/media/just_eat.78a23642a95b8bec577e.svg",
     "static/media/deliveroo.svg": "/web-template-showcase/static/media/deliveroo.79145542f47ab93eef1c.svg",
     "index.html": "/web-template-showcase/index.html",
-    "main.569fd969.css.map": "/web-template-showcase/static/css/main.569fd969.css.map",
-    "main.5d951484.js.map": "/web-template-showcase/static/js/main.5d951484.js.map",
-    "787.4c96148f.chunk.js.map": "/web-template-showcase/static/js/787.4c96148f.chunk.js.map"
+    "main.5fba72a5.css.map": "/web-template-showcase/static/css/main.5fba72a5.css.map",
+    "main.5470aa42.js.map": "/web-template-showcase/static/js/main.5470aa42.js.map",
+    "452.90dcb9f2.chunk.js.map": "/web-template-showcase/static/js/452.90dcb9f2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.569fd969.css",
-    "static/js/main.5d951484.js"
+    "static/css/main.5fba72a5.css",
+    "static/js/main.5470aa42.js"
   ]
 }
