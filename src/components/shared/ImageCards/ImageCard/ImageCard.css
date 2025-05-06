@@ -1,0 +1,143 @@
+.image-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: 10px;
+  width: 300px;
+  height: fit-content;
+  text-align: center;
+}
+
+.image-card-content {
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+}
+
+.card-image {
+  width: 300px;
+  height: inherit;
+  border-radius: inherit;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.image-card-info {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.image-card-info > * {
+  padding: 10px 0;
+}
+
+.card-info-title {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  font-weight: 500;
+  font-size: 25px;
+  height: 35px;
+  width: 300px;
+  word-wrap: break-word;
+  justify-content: center;
+}
+
+.card-info-description {
+  font-weight: 500;
+  font-size: 14px;
+  height: 60px;
+  width: 300px;
+  word-wrap: break-word;
+
+  text-align: start;
+}
+
+.card-btn {
+  display: flex;
+  margin-left: 15px;
+  justify-content: center;
+}
+
+@media screen and (min-width: 778px) {
+  .image-card-content {
+    width: 400px;
+    height: 300px;
+    max-width: 300px;
+  }
+
+  .image-card-info > * {
+    padding: 8px 0;
+  }
+
+  .card-info-title {
+    font-weight: 500;
+    font-size: 20px;
+    max-width: 300px;
+    word-wrap: break-word;
+    justify-content: flex-start;
+  }
+
+  .card-info-description {
+    font-weight: 500;
+    font-size: 14px;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    width: 300px;
+  }
+
+  .card-btn {
+    margin-left: 15px;
+    justify-content: flex-start;
+  }
+}
+
+@media (min-width: 778px) and (max-width: 1130px) {
+  .image-card-wrapper {
+    text-align: start;
+    width: 300px;
+  }
+}
+
+@media (min-width: 1130px) and (max-width: 1269px) {
+  .image-card-wrapper {
+    text-align: start;
+    width: 210px;
+  }
+
+  .card-image {
+    width: 210px;
+    height: 210px;
+    border-radius: inherit;
+    object-fit: cover;
+    object-position: center center;
+  }
+
+  .image-card-content {
+    width: 210px;
+    height: 210px;
+    border-radius: 30px;
+  }
+}
+
+@media (min-width: 1270px) and (max-width: 1499px) {
+  .image-card-wrapper {
+    text-align: start;
+    width: 250px;
+  }
+
+  .card-image {
+    width: 250px;
+    height: 250px;
+    border-radius: inherit;
+    object-fit: cover;
+    object-position: center center;
+  }
+
+  .image-card-content {
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+  }
+}

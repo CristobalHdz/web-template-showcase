@@ -1,0 +1,100 @@
+.locations-wrapper {
+  display: flex;
+  flex-direction: column !important;
+  padding: 5%;
+}
+
+.locations-title {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30px;
+  padding: 10px 0;
+}
+
+.locations-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.locations-information {
+  width: 100%;
+}
+
+.locations-information > * {
+  padding-top: 30px;
+}
+
+.locations-address {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.locations-subtitle {
+  font-weight: 600;
+}
+
+.location-order-btn {
+  padding-left: 10px;
+}
+
+.location-map {
+  padding: 20px 0;
+  width: 100%;
+  height: 350px;
+  border: none;
+}
+
+.location-icons-styles {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: fit-content;
+}
+
+.location-icon-style {
+  width: 50px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.location-btn-order-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.location-second-btn {
+  margin-top: 30px;
+}
+
+@media (min-width: 778px) {
+  .locations-wrapper {
+    padding: 1% 15%;
+  }
+
+  .locations-info-wrapper {
+    display: flex;
+    flex-direction: row !important;
+    flex: 1;
+  }
+  .location-map {
+    width: 50%;
+  }
+
+  .locations-information {
+    width: 50%;
+  }
+}
+
+@media (min-width: 950px) {
+  .location-btn-order-wrapper {
+    flex-direction: row;
+  }
+
+  .location-second-btn {
+    margin-left: 20px;
+    margin-top: 0;
+  }
+}

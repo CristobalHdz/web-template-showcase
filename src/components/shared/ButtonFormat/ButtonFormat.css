@@ -1,0 +1,36 @@
+a {
+  text-decoration: none !important;
+}
+
+.btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: start;
+  cursor: pointer;
+  border: 2px solid;
+  border-radius: 25px;
+  padding: 5px 10px;
+  gap: 10px;
+}
+
+.btn-text {
+  font-weight: 600;
+  line-height: 20px;
+  font-size: 18px;
+}
+
+.arrow-style {
+  font-size: 5px;
+  font-weight: bold;
+}
+
+@media (min-width: 778px) {
+  .btn-wrapper {
+    text-align: center;
+  }
+
+  .btn-text {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,144 @@
+.message-card-wrapper {
+  width: 300px;
+  height: 300px;
+  border-radius: 32px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.message-card-inner-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+}
+
+.msg-info-wrapper {
+  width: inherit;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.msg-title {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.msg-msg {
+  width: 280px;
+  font-size: 25px;
+  word-wrap: break-word;
+}
+
+.msg-btn {
+  width: inherit;
+  padding-bottom: 20px;
+  padding-left: 40px;
+}
+
+@media screen and (min-width: 778px) {
+  .msg-info-wrapper {
+    width: inherit;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+
+  .msg-title {
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+  .msg-msg {
+    width: 280px;
+    font-size: 25px;
+    word-wrap: break-word;
+  }
+
+  .msg-btn {
+    width: inherit;
+    padding-bottom: 20px;
+    padding-left: 40px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 720px) {
+  .message-card-wrapper {
+    width: 320px;
+    height: 350px;
+  }
+}
+
+@media (min-width: 778px) and (max-width: 1129px) {
+  .message-card-wrapper {
+    width: 300px;
+    height: 300px;
+  }
+
+  .message-card-inner-wrapper {
+    margin: 0px;
+  }
+}
+
+@media (min-width: 1130px) and (max-width: 1269px) {
+  .message-card-wrapper {
+    width: 210px;
+    height: 210px;
+    padding: 5px;
+  }
+  .message-card-inner-wrapper {
+    margin: 10px;
+    width: 210px;
+    height: 210px;
+  }
+
+  .msg-title {
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  .msg-msg {
+    width: 210px;
+    font-size: 20px;
+
+    word-wrap: break-word;
+  }
+
+  .msg-btn {
+    padding-bottom: 10px;
+  }
+}
+
+@media (min-width: 1270px) and (max-width: 1499px) {
+  .message-card-wrapper {
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+  }
+  .message-card-inner-wrapper {
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+  }
+
+  .msg-title {
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .msg-msg {
+    width: 210px;
+    font-size: 22px;
+
+    word-wrap: break-word;
+  }
+
+  .msg-btn {
+    padding-bottom: 20px;
+  }
+}

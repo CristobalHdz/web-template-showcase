@@ -1,0 +1,358 @@
+{
+  "navbar_items": {
+    "business_name": "A restaurant!",
+    "logo_exists": true,
+    "logo_size": "large",
+    "main_button_text": "Order Now",
+    "main_button_redirect": "URL REDIRECTION MAIN",
+    "options": [
+      {
+        "title": "Reservation",
+        "url": "URL REDIRECTION MAIN",
+        "shown": false
+      },
+      {
+        "title": "Menu",
+        "url": "URL REDIRECTION MAIN",
+        "shown": true
+      },
+      {
+        "title": "Locations",
+        "url": "/locations",
+        "shown": true
+      },
+      {
+        "title": "Call now",
+        "url": "tel: 1234",
+        "shown": false
+      },
+      {
+        "title": "Catering",
+        "url": "/catering",
+        "shown": false
+      },
+      {
+        "title": "Email Signup",
+        "url": "/email_signup",
+        "shown": false
+      },
+      {
+        "title": "Brands",
+        "url": "/brands",
+        "shown": true
+      }
+    ],
+    "navbar_styles": {
+      "background_color": "white",
+      "font_color": "black",
+      "navbar_mobile_dropdown": "rgba(255, 255, 255, 0.9)",
+      "active_underline": "#ff700a",
+      "navbar_btn": {
+        "btn_size": 1,
+        "show_arrow": false,
+        "arrow_at_start": false,
+        "arrow_color": "white",
+        "show_border": false,
+        "border_color": "white",
+        "background_color": "#000000",
+        "font_color": "white",
+        "capitalize_text": true
+      }
+    }
+  },
+  "home_banner": {
+    "title": "Welcome to /A restaurant!!",
+    "button_text": "Order Now",
+    "url": "URL REDIRECTION large",
+    "banner_items": [
+      {
+        "item": "Menu item",
+        "url": "URL REDIRECTION MAIN"
+      },
+      {
+        "item": "Another item",
+        "url": "URL REDIRECTION MAIN"
+      },
+      {
+        "item": "Yet another item",
+        "url": "URL REDIRECTION MAIN"
+      },
+      {
+        "item": "One last item",
+        "url": "URL REDIRECTION MAIN"
+      }
+    ],
+    "home_banner_styles": {
+      "hero_image_text_color": "white",
+      "banner_btn": {
+        "btn_size": 1.5,
+        "show_arrow": true,
+        "arrow_at_start": true,
+        "arrow_color": "#000000",
+        "show_border": true,
+        "border_color": "#000000",
+        "background_color": "white",
+        "font_color": "black",
+        "capitalize_text": false
+      },
+      "options_btns": {
+        "btn_size": 1,
+        "show_arrow": true,
+        "arrow_at_start": true,
+        "arrow_color": "white",
+        "show_border": false,
+        "border_color": "white",
+        "background_color": "transparent",
+        "font_color": "white",
+        "capitalize_text": true
+      },
+      "options_btns_mobile": {
+        "arrow_color": "black",
+        "font_color": "black"
+      }
+    }
+  },
+  "home_aboutus": {
+    "title": "About us",
+    "aboutus_description": [
+      "Welcome to our Web Template Showcase. This platform serves as a demonstration of our professional web development capabilities and design expertise.",
+      "Our showcase features a meticulously crafted template that highlights modern web design principles, responsive layouts, and user-friendly interfaces. This demonstration site is designed to give potential clients and partners a firsthand experience of our technical proficiency and attention to detail.",
+      "While this is a showcase project, it represents the quality and sophistication we bring to every web development engagement. Each component has been carefully designed to demonstrate best practices in web development, from performance optimization to accessibility standards.",
+      "We invite you to explore the various features and functionalities demonstrated here, which serve as examples of what we can create for your specific needs. This showcase is a testament to our commitment to delivering high-quality, professional web solutions.",
+      "Note: This is a demonstration template and is not available for public use or distribution."
+    ],
+    "aboutus_styles": {
+      "title_color": "#303030",
+      "font_color": "black"
+    }
+  },
+  "home_showcase_items": {
+    "title": "Discover our taste",
+    "buttons_text": "Order Now",
+    "url": "URL REDIRECTION MAIN",
+    "showcase_items": [
+      {
+        "id": "mi1",
+        "name": "Pancakes",
+        "description": "",
+        "img_format": "jpg"
+      },
+      {
+        "id": "mi2",
+        "name": "Burger",
+        "description": "",
+        "img_format": "jpg"
+      },
+      {
+        "id": "mi3",
+        "name": "Spaghetti",
+        "description": "",
+        "img_format": "jpg"
+      }
+    ],
+    "showcase_items_message": {
+      "title": "Drooling yet?",
+      "message": "Check out more of our delicious items!",
+      "message_url": "URL REDIRECTION MAIN",
+      "button_text": "Order Now"
+    },
+    "showcase_styles": {
+      "title_color": "#303030",
+      "font_color": "black",
+      "showcase_message_font_color": "white",
+      "showcase_message_background": "#000000",
+      "showcase_btns": {
+        "btn_size": 1.2,
+        "show_arrow": true,
+        "arrow_at_start": true,
+        "arrow_color": "#ff700a",
+        "show_border": true,
+        "border_color": "#ff700a",
+        "background_color": "white",
+        "font_color": "black",
+        "capitalize_text": false
+      },
+      "showcase_message_button": {
+        "btn_size": 1.5,
+        "show_arrow": true,
+        "arrow_at_start": false,
+        "arrow_color": "white",
+        "show_border": false,
+        "border_color": "#ff700a",
+        "background_color": "transparent",
+        "font_color": "white",
+        "capitalize_text": true
+      }
+    }
+  },
+  "home_nav_option_styles": {
+    "font_color": "white",
+    "background_color": "#000000",
+    "border_color": "white"
+  },
+  "home_socials": {
+    "home_instagram_title": "Keep up with all our new dishes/updates!",
+    "home_instagram_button_text": "Follow us",
+    "contact_email": "something@emailshowcase.com",
+    "facebook_url": "",
+    "instagram_url": "ADD INSTAGRAM URL",
+    "tiktok_url": "",
+    "yelp_url": "",
+    "twitter_url": "",
+    "youtube_url": "",
+    "home_socials_styles": {
+      "title_color": "#303030",
+      "home_instagram_button_style": {
+        "btn_size": 1.2,
+        "show_arrow": true,
+        "arrow_at_start": true,
+        "arrow_color": "#ff700a",
+        "show_border": true,
+        "border_color": "#ff700a",
+        "background_color": "white",
+        "font_color": "black",
+        "capitalize_text": false
+      }
+    }
+  },
+  "general_email_information": {
+    "email_info": {
+      "public_id": "",
+      "service_id": ""
+    },
+    "email_signup_template": "",
+    "catering_tempalte": "",
+    "submit_button_style": {
+      "btn_size": 1.2,
+      "show_arrow": true,
+      "arrow_at_start": true,
+      "arrow_color": "#ff700a",
+      "show_border": true,
+      "border_color": "#ff700a",
+      "background_color": "white",
+      "font_color": "black",
+      "capitalize_text": false
+    }
+  },
+  "location_information": {
+    "hours_subtitle": "Hours",
+    "phone_subtitle": "Phone",
+    "button_text": "Order now",
+    "reservation_button_text": "Reservations",
+    "locations": [
+      {
+        "id": "idLoc1",
+        "location_title": "",
+        "city": "",
+        "location_title_edit": "",
+        "address": "Somewhere in the world/ a city",
+        "schedule": "Monday - Wednesday: 12:00 PM - 9:00 PM/ Thursday - Friday: 12:00 PM - 10:00 PM/ Saturday - Sunday: 12:00 PM - 11:00 PM",
+        "phone": "123 - 456 - 7890",
+        "reservation_url": "",
+        "redirection_url": "URL REDIRECTION MAIN",
+        "coordinates_url": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1860.3405551626786!2d-90.0317147593206!3d21.165082238050484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smx!4v1746555912668!5m2!1sen!2smx",
+
+        "delivery_apps": [
+          {
+            "id": "app1",
+            "name": "deliveroo",
+            "url": "USE DELIVERY APP URL"
+          }
+        ]
+      }
+    ],
+    "location_information_styles": {
+      "title_color": "black",
+      "subtitle_color": "black",
+      "info_text_color": "rgba(0, 0, 0, 0.7)",
+      "border_line_color": "black",
+      "single_location_btn": {
+        "btn_size": 1.2,
+        "show_arrow": true,
+        "arrow_at_start": true,
+        "arrow_color": "#ff700a",
+        "show_border": true,
+        "border_color": "#ff700a",
+        "background_color": "white",
+        "font_color": "black",
+        "capitalize_text": false
+      },
+      "reservation_btn": {
+        "btn_size": 1.2,
+        "show_arrow": true,
+        "arrow_at_start": true,
+        "arrow_color": "#ff700a",
+        "show_border": false,
+        "border_color": "black",
+        "background_color": "transparent",
+        "font_color": "#ff700a",
+        "capitalize_text": true
+      }
+    }
+  },
+  "catering_information": {
+    "catering_information_styles": {
+      "title_color": "black",
+      "subtitle_tags_color": "black",
+      "submit_button": {
+        "btn_size": 1.2,
+        "show_arrow": true,
+        "arrow_at_start": true,
+        "arrow_color": "#ff700a",
+        "show_border": true,
+        "border_color": "#ff700a",
+        "background_color": "white",
+        "font_color": "black",
+        "capitalize_text": false
+      }
+    }
+  },
+  "brands_information": {
+    "brands_title": "Our Brands",
+    "brands_button_text": "Order now",
+    "brands_info": [
+      {
+        "id": "idbrand1",
+        "name": "Brand Name",
+        "url": "URL REDIRECTION MAIN",
+        "img_format": "jpg",
+        "delivery_apps": [
+          {
+            "id": "app1",
+            "name": "uber_eats",
+            "url": "CHANGE URL"
+          }
+        ]
+      }
+    ],
+    "brands_styles": {
+      "title_text_color": "black",
+      "title_border_color": "black",
+      "brand_name_text_color": "black",
+      "order_button": {
+        "btn_size": 1.2,
+        "show_arrow": true,
+        "arrow_at_start": true,
+        "arrow_color": "#ff700a",
+        "show_border": true,
+        "border_color": "#ff700a",
+        "background_color": "white",
+        "font_color": "black",
+        "capitalize_text": false
+      }
+    }
+  },
+  "footer_information": {
+    "show_contact_option": true,
+    "title": "Come visit us anytime!",
+    "address_subtitle": "Address",
+    "locations_subtitle": "Locations",
+    "hours_subtitle": "Hours",
+    "contact_info_subtitle": "Get in touch with us",
+    "footer_styles": {
+      "background_color": "black",
+      "subtitle_font_color": "white",
+      "info_font_color": "white"
+    }
+  }
+}

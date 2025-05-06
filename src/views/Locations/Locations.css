@@ -1,0 +1,15 @@
+.locations-main-info-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-style {
+  object-fit: cover;
+  height: 30vh;
+}
+
+@media (min-width: 778px) {
+  .image-style {
+    height: 15vh !important;
+  }
+}

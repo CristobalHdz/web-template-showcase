@@ -1,0 +1,101 @@
+.catering-form-wrapper {
+  padding: 20px;
+}
+
+.submit-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+}
+
+.text-area {
+  resize: none;
+}
+
+.catering-row-form-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-element-wrapper-mid,
+.form-element-wrapper-full {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+
+  width: 100%;
+}
+
+.catering-general-input-area {
+  border-radius: 8px;
+  line-height: 25px;
+  padding: 4px 5px;
+  border: 1px black solid;
+  margin-top: 5px;
+
+  font-size: 14px;
+}
+
+.catering-dropdown-area {
+  height: 37px;
+}
+
+.catering-date-select {
+  width: 100%;
+}
+
+.react-datepicker__input-container > * {
+  width: -webkit-fill-available !important;
+}
+
+.btn-submit {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin: 40px 0;
+}
+
+.catering-btn-text {
+  margin-bottom: 25px;
+
+  color: black;
+  font-size: 18px;
+}
+
+.catering-btn {
+  margin-left: 10px;
+}
+
+@media (min-width: 778px) {
+  .submit-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+  }
+
+  .btn-submit {
+    display: flex;
+    padding-left: 10px;
+    padding-top: 10px;
+    justify-content: flex-start;
+    margin: 0;
+  }
+
+  .form-element-wrapper {
+    width: 45%;
+  }
+
+  .catering-row-form-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .form-element-wrapper-mid {
+    width: 45%;
+  }
+}

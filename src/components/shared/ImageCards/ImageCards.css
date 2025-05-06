@@ -1,0 +1,34 @@
+.menu-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+}
+
+.menu-title {
+  font-size: 12px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.menu-icons-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (min-width: 778px) {
+  .menu-wrapper {
+    padding: 30px 20px;
+    margin: 25px 6%;
+  }
+
+  .menu-title {
+    font-size: 25px;
+  }
+
+  .menu-icons-wrapper {
+    justify-content: space-around;
+    flex-direction: row;
+  }
+}

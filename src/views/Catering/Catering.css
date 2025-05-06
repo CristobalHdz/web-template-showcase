@@ -1,0 +1,51 @@
+.catering-main-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 60px;
+}
+
+.image-style {
+  object-fit: cover;
+  height: 10vh;
+}
+
+.catering-title {
+  padding: 20px 0 0 0;
+
+  font-size: 30px;
+  font-weight: 500;
+
+  text-align: center;
+
+  margin-top: 20px;
+}
+
+.catering-content-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.catering-content-wrapper > * {
+  width: 100%;
+}
+
+@media (min-width: 778px) {
+  .catering-content-wrapper > * {
+    width: 75%;
+  }
+
+  .image-style {
+    height: 15vh !important;
+  }
+
+  .catering-title {
+    padding: 20px 0 0 8%;
+
+    font-size: 30px;
+    font-weight: 500;
+
+    text-align: left;
+  }
+}
